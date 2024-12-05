@@ -1,0 +1,5 @@
+﻿  Botones pentablet.cpp
+C:\Users\rodri\OneDrive\Desktop\VSCode\C++\Visual Studio\Botones pentablet\Botones pentablet\Botones pentablet.cpp(87,14): error C2084: la función 'int procesar_evento(SIGNDATAPACKET)' ya tiene un cuerpo
+      C:\Users\rodri\OneDrive\Desktop\VSCode\C++\Visual Studio\Botones pentablet\Botones pentablet\Botones pentablet.cpp(56,14):
+      vea la definición anterior de “procesar_evento”
+  

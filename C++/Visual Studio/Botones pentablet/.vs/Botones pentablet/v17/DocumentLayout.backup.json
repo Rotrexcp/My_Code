@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Desktop\\VSCode\\C\u002B\u002B\\Visual Studio\\Botones pentablet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F90917CB-7EC7-4843-8471-98990BE45A8E}|Botones pentablet\\Botones pentablet.vcxproj|C:\\Users\\rodri\\OneDrive\\Desktop\\VSCode\\C\u002B\u002B\\Visual Studio\\Botones pentablet\\Botones pentablet\\Botones pentablet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F90917CB-7EC7-4843-8471-98990BE45A8E}|Botones pentablet\\Botones pentablet.vcxproj|solutionrelative:Botones pentablet\\Botones pentablet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Botones pentablet.cpp",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Desktop\\VSCode\\C\u002B\u002B\\Visual Studio\\Botones pentablet\\Botones pentablet\\Botones pentablet.cpp",
+              "RelativeDocumentMoniker": "Botones pentablet\\Botones pentablet.cpp",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Desktop\\VSCode\\C\u002B\u002B\\Visual Studio\\Botones pentablet\\Botones pentablet\\Botones pentablet.cpp",
+              "RelativeToolTip": "Botones pentablet\\Botones pentablet.cpp",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAQwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T17:49:41.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

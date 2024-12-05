@@ -1,0 +1,22 @@
+Hola Caracola
+
+Vamos a ver, se supone que está todo conectado ya, entonces tienes que:
+1. ir al escritorio y click derecho a la carpeta "VSCode"
+2. abrir con VSCode
+3. haz lo que tengas que hacer como borrar archivos, nuevos programas... lo que sea
+4. abrir terminal (Ctrl+Shift+ñ) y poner:
+    - git init
+    (- git status [para ver que falta])
+    - git add .
+    - git commit -m "(lo que sea)"       IMPORTANTE ESTE PASO QUE O SINO NO SE SUBE
+    - git push
+
+se supone que con eso ya se sube en GitHub, compruebalo por si acaso mameluco, y si no sale
+estas algo jodido, aunque también puedes intentar algo desde la barra lateral del VSCode debajo 
+de la lupa, uno que se llama Source Control, y ahi algo te puede ayudar. Creo que eso es lo mismo
+que la terminal pero con un menu y todo (mas intuitivo). Eah, a programar.
+
+Vale he averiguado lo del Source Control. Por si eres minguito y no sabes usar la terminal (como yo),
+pues después de haber trabajado en vez del paso 4 (abrir la terminal) te vas a Source Control y le
+pones un mensaje en la cajita encima de commit (lo mismo que el paso de git commit -m) y le das a
+commit (botón azul), cuando cargue le das a sincronizar y debe salir en GitHub (botóon azul)
