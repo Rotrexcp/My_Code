@@ -1,0 +1,32 @@
+Pasos para pasar un archivo .py a un ejecutable .exe:
+
+    1.- Instala PyInstaller usando pip en la CMD:
+        pip install pyinstaller
+
+    2.- Encontrar el directorio completo de la CARPETA donde se encuentra tu archivo .py.
+
+    3.- Abre la CMD en ese directorio:
+        cd "ruta_de_carpeta_del_archivo"
+
+    4.- Ejecuta el siguiente comando para crear el ejecutable:
+        pyinstaller -F -w -i nombre_del_icono.ico nombre_del_archivo.py     (OJO: -F == --onefile, -w == sin terminal, -i == icono)
+
+    5.- PyInstaller creará una carpeta llamada 'dist' para el .exe y otra '' para sus recursos en el mismo directorio.
+
+    6.- Dentro de la carpeta 'dist', encontrarás el archivo ejecutable '.exe'.
+
+    7.- Si deseas personalizar el icono del ejecutable, usa el parámetro '--icon':
+        pyinstaller --onefile --icon=icono.ico nombre_del_archivo.py
+
+    8.- Si deseas actualizar el .exe:
+        pyinstaller -F -w -i nombre_del_icono.ico nombre_del_archivo.py
+
+    8.- Distribuye el archivo '.exe' junto con cualquier otro recurso necesario.
+
+
+Observaciones:
+    Tener en cuenta los formatos de los archivos para realizar un .exe.
+    Ejemplo: antes de nada si tenemos un icono debemos convertir el png (obligatorio) a .ico (obligatorio)
+    Si se desea poner un icono en la barra de tareas se puede poner dentro del codigo:
+        "self.iconbitmap("ruta_del_icono.ico")"
+        {unicamente ha sido probado con Tkinter, si hay dudas revisar en C:\Users\rodri\OneDrive\Desktop\US_proyects\Utility\__MANAGER__\MANAGER.py}

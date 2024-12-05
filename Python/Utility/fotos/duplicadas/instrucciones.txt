@@ -1,0 +1,48 @@
+INSTRUCCIONES
+
+
+Este programa es algo sencillo, un boton para borrar las fotos duplicadas y otro para borrar un 
+nombre comun en todos los archivos (explicacion mas detallada mas adelante)
+
+valdra para borrar esas fotos que estan duplicadas dentrode una carpeta y cambiar sus nombres 
+con cosas comunes exclusivamente.
+
+Pasos a seguir:
+1.- En el apartado de Directorio se puede escribir la ruta (que es algo mas tedioso)
+    o se puede utilizar el boton de seleccionar, en este simplemente seleccionamos la 
+    carpeta de las fotos duplicadas
+
+2.- Cuando la carpeta este seleccionada pulsamos en Buscar Duplicados y ya se habran borrado
+    aquellas fotos que esten duplicadas multiples veces
+
+3.- Si no te gusta como han quedado los nombres de las fotos, se puede cambiar, porque imaginemos 
+    que tenemos la siguiente situacion:
+        foto1
+        foto1 - copia
+        foto1 - copia (1)
+        foto1 - copia (2)
+        foto2
+        foto2 - copia
+        foto2 - copia (1)
+        foto2 - copia (2)
+        foto3
+        foto3 - copia
+        foto3 - copia (1)
+        foto3 - copia (2)
+
+    Al darle al boton de Buscar Duplicados a lo mejor el programa decide escoger estas:
+        foto1 - copia (2)
+        foto2 - copia (2)
+        foto3 - copia (2)
+
+    Para ello tenemos la opcion de Renombrar Archivos, esta lo que hace es que tu le escribes por 
+    ejemplo " - copia (2)" y eso lo borrara de todos los archivos que encuentre que lo tengan quedando 
+    algo tal que asi:
+        foto1
+        foto2
+        foto3
+    
+    Eso si, hace falta poner exactamente lo mismo, es decir: [espacio] - [espacio] copia [espacio] (2) 
+    (eso en el caso que yo he puesto)
+
+Eso sería todo, espero que te haya gustado, saludosss
