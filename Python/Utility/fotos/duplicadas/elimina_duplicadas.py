@@ -3,6 +3,7 @@ import hashlib
 import re
 import tkinter as tk
 from tkinter import filedialog, messagebox
+import sys
 
 def hash_file(file_path):
     """Generate a hash for a file."""
@@ -71,13 +72,26 @@ def run_rename_files():
 root = tk.Tk()
 root.title("Elimina Duplicadas y Renombra Archivos")
 
-ICONO_PATH = "C:/Users/rodri/OneDrive/Desktop/US_proyects/Utility/fotos/duplicadas/icono.ico"
-root.iconbitmap(ICONO_PATH)
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+ICONO_PATH = resource_path("icono.ico")
+if os.path.exists(ICONO_PATH):
+    root.iconbitmap(ICONO_PATH)
+else:
+    print(f"Icon file not found: {ICONO_PATH}")
 
 frame = tk.Frame(root)
 frame.pack(padx=10, pady=10)
 
-label_directory = tk.Label(frame, text="Directorio:")
+label_directory = tk.Label(frame, text="Carpeta:")
 label_directory.grid(row=0, column=0, sticky="e")
 
 entry_directory = tk.Entry(frame, width=50)
@@ -86,7 +100,7 @@ entry_directory.grid(row=0, column=1, padx=5)
 button_browse = tk.Button(frame, text="Seleccionar", command=select_directory)
 button_browse.grid(row=0, column=2)
 
-button_find_duplicates = tk.Button(frame, text="Buscar Duplicados", command=run_find_duplicates)
+button_find_duplicates = tk.Button(frame, text="Buscar Fotos Duplicadas", command=run_find_duplicates)
 button_find_duplicates.grid(row=1, columnspan=3, pady=5)
 
 label_text_to_remove = tk.Label(frame, text="Texto a eliminar:")
